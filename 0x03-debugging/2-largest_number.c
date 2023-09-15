@@ -9,7 +9,7 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int largest_number1(int a, int b, int c)
 {
 	int largest;
 
@@ -29,12 +29,7 @@ int largest_number(int a, int b, int c)
 	return (largest);
 }
 
-/**
-* main - prints the largest of 3 integers
-* Return: 0
-*/
-
-int main(void)
+int largest_number(void)
 {
         int a, b, c;
         int largest;
@@ -43,7 +38,7 @@ int main(void)
         b = -98;
         c = 0;
 
-        largest = largest_number(a, b, c);
+        largest = largest_number1(a, b, c);
 
         printf("%d is the largest number\n", largest);
 
