@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def island_perimeter(grid):
-    
+
     width = len(grid[0])
     height = len(grid)
     edges = 0
